@@ -1,0 +1,38 @@
+body {
+    background-color: honeydew;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    border: 1px solid rgb(43, 29, 3);
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 37%;
+    margin-right: 45%;
+    background-color: rgb(168, 168, 219);
+    color: grey ;
+    border-radius: 40px;
+    padding: 2%;
+}
+
+.btnEnviar{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.btnEnviar:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 7px;
+}
